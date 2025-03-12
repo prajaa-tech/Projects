@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>What is JAVA?</h2>
+    <dl>
+        <dt><dd>Java is a popular programming language, created in 1995.</dd></dt><br>
+        <dd>It is owned by Oracle, and more than <b>3 billion </b>devices run Java.</dd><br>
+        <dd>It is used for:</dd>
+    </dl>
+    <ul type="circle">
+            <dd><li>Mobile applications <i>(specially Android apps)</i></li></dd>
+            <dd><li>Desktop applications</li></dd>
+            <dd><li>Web applications</li></dd>
+            <dd><li>Games </li></dd>
+            <dd><li>Database connection </li></dd>
+    </ul>
+    <h2>Why JAVA Use?</h2>
+    <ol type="a">
+        <dd><li>Java works on different platforms <cite>(Windows, Mac, Linux, Raspberry Pi, etc.)</cite></li></dd>
+            <dd><li>It has huge community support <cite>(tens of millions of developers)</cite></li></dd>
+            <dd><li>It is open-source and free</li></dd>
+            <dd><li>It is secure, fast and powerful</li></dd>
+            <dd><li>As Java is close to <ins>C++</ins> and <ins>C#</ins>, it makes it easy for programmers to switch to Java or vice versa </li></dd>
+    </ol>
+    <br>
+</body>
+</html>
