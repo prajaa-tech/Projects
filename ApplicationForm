@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Form</title>
+</head>
+<body background="104050.jpg">
+    <center>
+        <h2>Personal Details</h2>
+        <form action="submit.html">
+            <div>
+                <label for="user">Name: </label>
+                <input type="text" id="user" required>
+            </div>
+            <br>
+            <div>
+            <label for="pass">Password: </label>
+            <input type="password" id="pass" required minlength="5">
+            </div>
+            <br>
+            <div>
+                <label for="mail">Email: </label>
+                <input type="Email" id="mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="">Gender : </label>
+                <label for="male">Male : </label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">Female : </label>
+                <input type="radio" id="female" name="gender">              
+            </div>
+            <br>
+            <div>
+                <label for="contact">Contact : </label>
+                <input type="Contact" id="contact" required minlength="10">
+            </div>
+            <br>
+            <h2>Educational Qualification</h2>
+            <br>
+            <label for="degree">Degree : </label>        
+            <select>
+                <option value="select group"> --Select Group-- </option>
+                <option>B.Tech</option>
+                <option>B.E</option>
+                <option>BSC</option>
+                <option>M.Tech</option>
+            </select>
+            <br>
+            <br>
+            <label for="department">Department : </label>  
+            <select>
+                <option value="select group"> --Select Group-- </option>
+                <option>IT</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select>
+            <br>
+            <br>
+            <div>
+                <label for="">Hobbies : </label>
+                <label for="drawing">Drawing</label>
+                <input type="checkbox" id="drawing">
+                <label for="making crafts">Making crafts</label>
+                <input type="checkbox" id="making crafts">
+            </div>
+            <h2>Address</h2>
+            <br>
+            <textarea rows="5" cols="40"></textarea> 
+            <div>
+                <br>
+                <label for="resume">Attach Resume : </label>
+                    <input type="text" id="resume" placeholder="Choose File" required> No file Choosen
+            </div>
+            <br>
+            <button type="submit"> SUBMIT </button>
+        </form>
+    </center>    
+</body>
+</html>
