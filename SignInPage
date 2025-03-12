@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signin Page</title>
+    </head>
+    <body background="104050.jpg"></body>
+        <center>
+            <h1>Login Account</h1>
+            <form action="welcome.html">
+                <div>
+                    <label for="user">Username:</label>
+                    <input type="text" id="user" placeholder="Eg:Tommy" required
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="pass">Password:</label>
+                    <input type="Password" id="pass" required minlength="8"
+                </div>
+                <br>
+                <br>
+                <button type="SUBMIT">Login</button>
+                <button type="RESET">reset</button>
+            </div>
+            <br>
+            <div>
+                <label for="">Available Products</label>
+            </div>
+            <br>
+            <div>
+                <label for="polaroid">Polaroids</label>
+                <input type="checkbox" id="polaroid">
+            </div>
+            <br>
+            <div>
+                <label for="frame">Frames</label>
+                <input type="checkbox" id="frame">
+            </div>
+            <br>
+            <div>
+                <label for="">Available Products:</label>
+                <label for="polaroids">Polaroids</label>
+                <input type="checkbox" id="polaroids">
+                <label for="frames">Frames</label>
+                <input type="checkbox" id="frames">
+            </div>
+            <br>
+            <input type="datetime-local" name="" id="">
+            <br><br>
+            <input type="range" name="" id="">
+            <br><br>
+            <input type="month" name="" id="">
+            <br><br>
+            <textarea rows="5" cols="20" placeholder="comment here..."></textarea>
+            <div>
+                <label for="">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+                <label for="other">Others</label>
+                <input type="radio" id="other" name="gender">                
+            </div>
+            </form>
+        </center>
+    </body>
+</html>
