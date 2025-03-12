@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DESIGNED FOR YOU</title>
+    <link rel="icon" type="image/png" href="Logo.jpg">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d10c86;
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar ul li {
+            margin: 0 0.5rem;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                background-color: #333;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                display: none;
+            }
+
+            .navbar ul.show {
+                display: flex;
+            }
+
+            .navbar ul li {
+                text-align: center;
+                margin: 0;
+            }
+
+            .menu-toggle {
+                display: block;
+                color: #fff;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .menu-toggle {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">DFY</a>
+        <span class="menu-toggle">&#9776;</span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navbarMenu = document.querySelector('.navbar ul');
+
+        menuToggle.addEventListener('click', () => {
+            navbarMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
